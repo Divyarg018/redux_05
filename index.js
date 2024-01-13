@@ -33,7 +33,7 @@ function reducer(state = initialState, action) {
         case CAKE_RESTOCKED:
             return {
                 ...state,
-                numOfCkaes: state.numOfCakes + action.payload,
+                numOfCakes: state.numOfCakes + action.payload,
             }
 
         default:
